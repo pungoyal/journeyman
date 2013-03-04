@@ -3,3 +3,11 @@
 
 en:
   hello: "Hello world"
+
+  mongoid:
+    attributes:
+      person:
+        is_female: Gender
+  people:
+    form:
+      is_female: Female

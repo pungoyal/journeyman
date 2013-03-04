@@ -8,6 +8,7 @@ gem 'omniauth-facebook'
 
 gem 'slim'
 gem 'less'
+gem 'jquery-rails'
 gem 'twitter-bootstrap-rails'
 
 group :assets do
@@ -24,6 +25,7 @@ end
 
 group :test, :development do
   gem 'rspec-rails'
+  gem 'pry'
 end
 
 group :development do
@@ -34,4 +36,5 @@ end
 
 group :test do
   gem 'mongoid-rspec'
+  gem 'database_cleaner'
 end
