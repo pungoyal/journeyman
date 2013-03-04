@@ -6,11 +6,11 @@ en:
     actions: "Actions"
     links:
       back: "Back"
-      edit: "Edit"
+      edit: " Edit"
       cancel: "Cancel"
       confirm: "Are you sure?"
-      destroy: "Delete"
-      new: "New"
+      destroy: " Delete"
+      new: " New"
     titles:
       edit: "Edit"
       save: "Save"
