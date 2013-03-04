@@ -6,8 +6,8 @@ gem 'mongoid'
 gem 'omniauth'
 gem 'omniauth-facebook'
 
-gem 'slim'
-gem 'less'
+gem 'slim-rails'
+gem 'less-rails'
 gem 'jquery-rails'
 gem 'twitter-bootstrap-rails'
 
@@ -20,7 +20,7 @@ group :assets do
 end
 
 group :production do
-  gem 'unicorn'
+  gem 'unicorn', '4.6.1'
 end
 
 group :test, :development do
@@ -30,11 +30,11 @@ end
 
 group :development do
   gem 'thin'
-  gem 'slim-rails'
-  gem 'less-rails'
 end
 
 group :test do
   gem 'mongoid-rspec'
   gem 'database_cleaner'
 end
+
+gem 'foreman'
